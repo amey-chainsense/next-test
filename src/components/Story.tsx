@@ -29,7 +29,7 @@ const Story = () => {
       className="h-auto w-full   dark:bg-dot-white/[0.2] relative flex flex-col items-center justify-center px-10 "
     >
       <div className="mt-2">
-        <TypewriterEffectSmooth words={words} />
+        <TypewriterEffectSmooth words={words} light={false} />
       </div>
 
       <motion.div
