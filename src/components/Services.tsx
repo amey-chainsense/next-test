@@ -86,7 +86,7 @@ const Services = () => {
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div id="services" className="flex flex-col justify-center items-center">
         <div className="mt-2">
-          <TypewriterEffectSmooth words={words} />
+          <TypewriterEffectSmooth words={words} light={false} />
         </div>
 
         <motion.div
