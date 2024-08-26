@@ -26,7 +26,7 @@ const HeroSection = () => {
             >
               We build and deploy cutting-edge blockchain solutions
             </h1> */}
-            <TextGenerateEffect words={text} />
+            <TextGenerateEffect words={text} size="" />
 
             <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
               Join pioneers of blockchain solutions to bring revolutionary trust
