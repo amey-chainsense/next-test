@@ -1,0 +1,27 @@
+"use client";
+import React from "react";
+import { motion } from "framer-motion";
+import { LampContainer } from "./ui/lamp";
+
+const About = () => {
+  return (
+    <LampContainer>
+      <motion.h1
+        initial={{ opacity: 0.5, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.3,
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
+        className="mt-2 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+      >
+        We build your complete Web3 infrastructure so you <br />
+        can grow exponentially without external <br />
+        <span className="font-bold">dependencies.</span>
+      </motion.h1>
+    </LampContainer>
+  );
+};
+
+export default About;

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+  <g id="Group_1279" data-name="Group 1279" transform="translate(-368 -2048)">
+    <circle id="Ellipse_110" data-name="Ellipse 110" cx="37" cy="37" r="37" transform="translate(368 2048)" fill="#222325"/>
+    <g id="Group_1276" data-name="Group 1276" transform="translate(0.902 2)">
+      <g id="Consultant" transform="translate(386.037 2081.905)">
+        <path id="Path_11394" data-name="Path 11394" d="M8.665,28.93a8.21,8.21,0,0,1,8.17,7.409.73.73,0,0,1-.727.8H1.221a.706.706,0,0,1-.54-.239.707.707,0,0,1-.186-.561,8.21,8.21,0,0,1,8.17-7.409Zm0-9.03a4.15,4.15,0,1,1-4.15,4.15A4.15,4.15,0,0,1,8.665,19.9Zm19.774,9.03a8.21,8.21,0,0,1,8.17,7.409.73.73,0,0,1-.726.8H21a.73.73,0,0,1-.726-.8,8.21,8.21,0,0,1,8.171-7.409Zm0-9.03a4.15,4.15,0,1,1-4.15,4.15A4.15,4.15,0,0,1,28.439,19.9Z" transform="translate(-0.491 -19.9)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+      <g id="Consultant-2" data-name="Consultant" transform="translate(395.889 2062)">
+        <path id="Path_11394-2" data-name="Path 11394" d="M20.042.062a8.208,8.208,0,1,1-5.728,14.857l-2.508,1.105a.365.365,0,0,1-.485-.47l1.041-2.578A8.208,8.208,0,0,1,20.042.062ZM19.035,7.479a.73.73,0,1,0,.73.73A.73.73,0,0,0,19.035,7.479Zm-3.538,0a.73.73,0,1,0,.73.73A.73.73,0,0,0,15.5,7.479Zm7.093,0a.73.73,0,1,0,.73.73A.73.73,0,0,0,22.591,7.479Z" transform="translate(-10.835 0)" fill="none" stroke="#7e7e7f" stroke-width="1.5" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
