@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 
@@ -13,7 +13,7 @@ export const DirectionAwareHover = ({
   className,
   text,
 }: {
-  imageUrl: string;
+  imageUrl: StaticImageData;
   children: React.ReactNode | string;
   childrenClassName?: string;
   imageClassName?: string;
