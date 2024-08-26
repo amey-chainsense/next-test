@@ -49,8 +49,9 @@ const Story = () => {
       <div className="py-10  relative  flex items-center justify-center">
         <DirectionAwareHover imageUrl={StoryImage}>
           <p className="font-bold text-xl bg-gray-400/40 px-2 rounded-xl">
-            "We strive to provide business solutions that can push the
-            boundaries in terms of business values, honesty, and efficiency."
+            &quot; We strive to provide business solutions that can push the
+            boundaries in terms of business values, honesty, and efficiency.
+            &quot;
           </p>
         </DirectionAwareHover>
       </div>

@@ -105,7 +105,7 @@ const Services = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 justify-center p-4">
           {solutions.map((item, i) => (
-            <WobbleCard>
+            <WobbleCard key={i}>
               <div className="flex items-center justify-center gap-4 max-w-[40rem]">
                 <Image src={item.icon} alt="" />
                 <div className="flex flex-col items-start justify-start">

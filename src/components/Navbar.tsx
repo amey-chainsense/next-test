@@ -22,7 +22,9 @@ const Navbar = ({ className }: { className?: string }) => {
           <MenuItem setActive={setActive} active={active} item="Products">
             <div className="flex flex-col space-y-4 text-sm">
               {products.map((item, i) => (
-                <HoveredLink href="#">{item.title}</HoveredLink>
+                <div key={i}>
+                  <HoveredLink href="#">{item.title}</HoveredLink>
+                </div>
               ))}
             </div>
           </MenuItem>
